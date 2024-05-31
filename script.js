@@ -2,16 +2,16 @@ let noButtonTexts = [
     "Estás segura pinchecha?",
     "Piénsalo de nuevo guapa",
     "Creo que te equivocaste de botón",
-    "De verdad quieres hacer esto?",
+    "Te mando un beshito para que lo pienses",
     "Deja de tocar ese boton",
     "Quizás deberías reconsiderarlo...",
     "El boton verde es mas bonito",
-    "Y los recuerdos bonitos que?",
+    "Y si te conciento?",
     "Porfavor :(",
     "Para continuar, favor presionar boton verde",
     "¿Seguro que quieres hacerlo?",
     "Piensalo una vez mas bebe",
-    "No deberíamos pensarlo más en frío?",
+    "Ñao ñao",
     "No crees que deberíamos pensarlo juntos?"
   ];
   
@@ -37,7 +37,7 @@ let noButtonTexts = [
         // Número de teléfono al que se enviará el mensaje (incluyendo el código de país)
         let phoneNumber = "584126316772"; // Reemplazar con tu número de teléfono
         // Mensaje que se enviará
-        let message = "Si quiero volver <3";
+        let message = "Si quiero ser tu noviaa <3";
     
         // Crear el enlace de redirección a WhatsApp con el número y el mensaje
         let whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
